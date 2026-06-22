@@ -1,0 +1,6 @@
+{
+	"ver": 1,
+	"name": "Property Arranger",
+	"icon": "ti-arrows-sort",
+	"description": "Drag the values of a multi-value linked-record property to put them in a custom order, plus a command to toggle multi-value blocks between a wrapping row and a vertical stack."
+}

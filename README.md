@@ -4,6 +4,8 @@ Property Arranger is a [Thymer](https://thymer.com) plugin for **multi-value pro
 
 Thymer renders multi-value properties in the order they're stored and never re-sorts them, but there's no built-in way to *change* that order or to lay the values out vertically. This plugin adds both.
 
+![Dragging a linked-record value into a new position](assets/reorder-demo.gif)
+
 ## Features
 
 - **Drag to reorder linked-record values.** Grab a record chip inside a multi-value relation property and drop it where you want it. A floating preview follows your cursor and a thin insertion line shows where it will land. Works in the open-record property panel **and** in the collection table view.
@@ -22,6 +24,8 @@ A normal click on a chip still opens the linked record as usual — only an actu
 **Layout:**
 
 - Open the Command Palette (`Cmd+P` / `Ctrl+P`) and run **Toggle multi-value layout (stack / row)**. Every multi-value property block switches between a wrapping horizontal row and a vertical stack. Run it again to switch back; the setting persists across restarts.
+
+![Toggling multi-value layout between a wrapping row and a vertical stack](assets/layout-toggle.gif)
 
 ## Installation
 
